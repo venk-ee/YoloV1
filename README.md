@@ -15,7 +15,7 @@ The original YOLOv1 paper pre-trains its backbone on ImageNet-1K before fine-tun
 | Target hardware | Multi-GPU cluster | **Single low-end GPU** |
 | Dataset | VOC + ImageNet | **PASCAL VOC only** |
 
-> The fully connected layer was intentionally reduced from 4096 → 496 neurons to dramatically lower VRAM usage and parameter count, enabling training on hardware with as little as 4 GB of GPU memory.
+> The fully connected layer was intentionally reduced from 4096 → 496 neurons to dramatically lower VRAM usage and parameter count, enabling training on hardware with a single GPU.
 
 ---
 
